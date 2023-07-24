@@ -44,7 +44,7 @@ function cellClick(e) {
 }
 
 function checkWin(player) { 
-*/
+
 for(let row = 0; row < 6; row++) {
     for(let col = 0; col < 7; col++) {
     if(checkDirection(row, col, 1, 0, player) || checkDirection(row, col, 0, 1, player) || checkDirection(row, col, 1, 1, player) || checkDirection(row, col, 1, -1, player)) return true;
