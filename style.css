@@ -1,0 +1,74 @@
+*{
+    margin: 0; 
+    padding:0; 
+  }
+  
+  body {
+    
+      place-items: center; 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+      font-weight: 400px;
+      font-size: xx-large;
+      background-color: whitesmoke
+  
+  }
+  
+  
+  #board { /* board is 6 x 7 so each section 
+    6x7 = 42 x 90px = 3780/6 = 630 (width)
+    3780/7 = 540 (height)*/
+      background-color: blue;
+  
+      border: 2px solid rgb(15, 20, 118);
+      height: 540px;
+      width: 630px;
+  
+      margin: 0 auto; 
+      display: flex; 
+      flex-wrap: wrap ;
+      
+  }
+  
+  .cell  { 
+    background-color: white;
+    width: 76px; 
+    height: 76px;
+    margin: 5px;
+    border: 2px solid black; 
+    border-radius: 50px; 
+    display: flex;
+  }
+  
+  .cell:hover {
+    cursor: grab; 
+    background-color: rgb(159, 43, 226);
+  }
+  
+  
+  .red {
+    background-color: red;
+    border: 2px solid black;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    border: 2px solid black;
+  }
+  
+  #message {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+  #restart {
+    display: none; 
+    margin: 20px auto; 
+    padding: 10px 20px; 
+    background-color: rgb(212, 0, 255);
+    cursor: pointer;
+  }
+  
+  #restart :hover {
+    background-color: blueviolet;
+  }
