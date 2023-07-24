@@ -1,4 +1,5 @@
 # Connect 4 Game 
+[Live Game](https://romyjeanpierre.github.io/CONNECT-4-Project/)
 
 ## About The Project
 Connect four is a two-player game in which there will be a player 1/ red and a player 2/yellow. Player red will start the game. The game board is a 6x7 grid. Two players take turns to drop a checker into any of the grid's columns. The chip can fall only to the lowest empty location within the selected column. The objective of the game is to be the first to build a row of four checkers horizontally, vertically, or diagonally.
@@ -77,6 +78,7 @@ To play the game, open the HTML file in a web browser. The game starts with play
 Your Name - [Romy Jean-Pierre](romyjeanpierre@yahoo.com) - romyjeanpierre@yahoo.com
 
 Project Link: [Github](https://github.com/romyjeanpierre/labs-HW/tree/main/Connect-4)
+
 
 
 
